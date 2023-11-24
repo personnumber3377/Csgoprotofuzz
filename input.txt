@@ -1,0 +1,11 @@
+CNETMsg_File
+transfer_id
+5
+file_name
+models/player/custom_player/legacy/ctm_idf_variantD.mdl
+is_replay_demo_file
+0
+deny
+0
+DONE
+uuuuuuuuuuuuuuuuu.bin

@@ -1,0 +1,79 @@
+
+
+Received packet types: ['CSVCMsg_PacketEntities', 'CSVCMsg_SetPause', 'CSVCMsg_Prefetch', 'CSVCMsg_GameEventList', 'CSVCMsg_Sounds', 'CSVCMsg_TempEntities', 'CSVCMsg_UserMessage', 'CNETMsg_SignonState', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_ClassInfo', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_FixAngle', 'CNETMsg_SetConVar', 'CSVCMsg_VoiceData', 'CSVCMsg_HltvReplay', 'CSVCMsg_BSPDecal', 'CNETMsg_StringCmd', 'CSVCMsg_SetView', 'CSVCMsg_ServerInfo', 'CSVCMsg_Print']
+all_messages == ['CSVCMsg_ServerInfo', 'CSVCMsg_SendTable', 'CSVCMsg_ClassInfo', 'CSVCMsg_SetPause', 'CSVCMsg_CreateStringTable', 'CSVCMsg_UpdateStringTable', 'CSVCMsg_VoiceInit', 'CSVCMsg_VoiceData', 'CSVCMsg_Print', 'CSVCMsg_Sounds', 'CSVCMsg_SetView', 'CSVCMsg_FixAngle', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_BSPDecal', 'CNETMsg_SplitScreenUser', 'CSVCMsg_UserMessage', 'svc_EntityMessage', 'CSVCMsg_GameEventList', 'CSVCMsg_PacketEntities', 'CSVCMsg_TempEntities', 'CSVCMsg_Prefetch', 'CSVCMsg_Menu', 'CSVCMsg_GameEventList', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_EncryptedData', 'CSVCMsg_HltvReplay', 'CSVCMsg_Broadcast_Command', 'CNETMsg_NOP', 'CNETMsg_Disconnect', 'CNETMsg_File', 'CNETMsg_SplitScreenUser', 'CNETMsg_Tick', 'CNETMsg_StringCmd', 'CNETMsg_SetConVar', 'CNETMsg_SignonState', 'CNETMsg_PlayerAvatarData']
+
+
+
+Difference: ['CNETMsg_SplitScreenUser', 'svc_EntityMessage', 'CSVCMsg_Menu', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_EncryptedData', 'CSVCMsg_Broadcast_Command', 'CNETMsg_Disconnect', 'CNETMsg_File', 'CNETMsg_SplitScreenUser', 'CNETMsg_PlayerAvatarData']
+
+
+I think that a svc_EntityMessage message can be sent by using point_message or something like that. 
+
+I don't really know how to do the CNETMsg_File message but we can manufacture this message with the generate_file.py script.
+
+
+After manually creating a CNETMsg_File message and then putting it into the corpus the output is now this:
+
+Received packet types: ['CSVCMsg_PacketEntities', 'CSVCMsg_SetPause', 'CSVCMsg_Prefetch', 'CSVCMsg_GameEventList', 'CSVCMsg_Sounds', 'CSVCMsg_TempEntities', 'CSVCMsg_UserMessage', 'CNETMsg_SignonState', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_ClassInfo', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_FixAngle', 'CNETMsg_SetConVar', 'CSVCMsg_VoiceData', 'CSVCMsg_HltvReplay', 'CSVCMsg_BSPDecal', 'CNETMsg_StringCmd', 'CSVCMsg_SetView', 'CSVCMsg_ServerInfo', 'CNETMsg_File', 'CSVCMsg_Print']
+all_messages == ['CSVCMsg_ServerInfo', 'CSVCMsg_SendTable', 'CSVCMsg_ClassInfo', 'CSVCMsg_SetPause', 'CSVCMsg_CreateStringTable', 'CSVCMsg_UpdateStringTable', 'CSVCMsg_VoiceInit', 'CSVCMsg_VoiceData', 'CSVCMsg_Print', 'CSVCMsg_Sounds', 'CSVCMsg_SetView', 'CSVCMsg_FixAngle', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_BSPDecal', 'CNETMsg_SplitScreenUser', 'CSVCMsg_UserMessage', 'svc_EntityMessage', 'CSVCMsg_GameEventList', 'CSVCMsg_PacketEntities', 'CSVCMsg_TempEntities', 'CSVCMsg_Prefetch', 'CSVCMsg_Menu', 'CSVCMsg_GameEventList', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_EncryptedData', 'CSVCMsg_HltvReplay', 'CSVCMsg_Broadcast_Command', 'CNETMsg_NOP', 'CNETMsg_Disconnect', 'CNETMsg_File', 'CNETMsg_SplitScreenUser', 'CNETMsg_Tick', 'CNETMsg_StringCmd', 'CNETMsg_SetConVar', 'CNETMsg_SignonState', 'CNETMsg_PlayerAvatarData']
+
+
+Difference: ['CNETMsg_SplitScreenUser', 'svc_EntityMessage', 'CSVCMsg_Menu', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_EncryptedData', 'CSVCMsg_Broadcast_Command', 'CNETMsg_Disconnect', 'CNETMsg_SplitScreenUser', 'CNETMsg_PlayerAvatarData']
+
+
+Notice how there is no CNETMsg_File in the Difference? Pretty good right?
+
+After adding a svc_EntityMessage message:
+
+Received packet types: ['CSVCMsg_PacketEntities', 'CSVCMsg_SetPause', 'CSVCMsg_Prefetch', 'CSVCMsg_GameEventList', 'CSVCMsg_Sounds', 'CSVCMsg_TempEntities', 'CSVCMsg_UserMessage', 'CNETMsg_SignonState', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_ClassInfo', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_FixAngle', 'CNETMsg_SetConVar', 'CSVCMsg_VoiceData', 'CSVCMsg_HltvReplay', 'CSVCMsg_BSPDecal', 'CNETMsg_StringCmd', 'CSVCMsg_SetView', 'svc_EntityMessage', 'CSVCMsg_ServerInfo', 'CNETMsg_File', 'CSVCMsg_Print']
+all_messages == ['CSVCMsg_ServerInfo', 'CSVCMsg_SendTable', 'CSVCMsg_ClassInfo', 'CSVCMsg_SetPause', 'CSVCMsg_CreateStringTable', 'CSVCMsg_UpdateStringTable', 'CSVCMsg_VoiceInit', 'CSVCMsg_VoiceData', 'CSVCMsg_Print', 'CSVCMsg_Sounds', 'CSVCMsg_SetView', 'CSVCMsg_FixAngle', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_BSPDecal', 'CNETMsg_SplitScreenUser', 'CSVCMsg_UserMessage', 'svc_EntityMessage', 'CSVCMsg_GameEventList', 'CSVCMsg_PacketEntities', 'CSVCMsg_TempEntities', 'CSVCMsg_Prefetch', 'CSVCMsg_Menu', 'CSVCMsg_GameEventList', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_EncryptedData', 'CSVCMsg_HltvReplay', 'CSVCMsg_Broadcast_Command', 'CNETMsg_NOP', 'CNETMsg_Disconnect', 'CNETMsg_File', 'CNETMsg_SplitScreenUser', 'CNETMsg_Tick', 'CNETMsg_StringCmd', 'CNETMsg_SetConVar', 'CNETMsg_SignonState', 'CNETMsg_PlayerAvatarData']
+
+
+Difference: ['CNETMsg_SplitScreenUser', 'CSVCMsg_Menu', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_EncryptedData', 'CSVCMsg_Broadcast_Command', 'CNETMsg_Disconnect', 'CNETMsg_SplitScreenUser', 'CNETMsg_PlayerAvatarData']
+
+
+
+
+After adding CNETMsg_SplitScreenUser :
+
+
+
+Received packet types: ['CSVCMsg_PacketEntities', 'CSVCMsg_SetPause', 'CSVCMsg_Prefetch', 'CSVCMsg_GameEventList', 'CSVCMsg_Sounds', 'CSVCMsg_TempEntities', 'CSVCMsg_UserMessage', 'CNETMsg_SignonState', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_ClassInfo', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_FixAngle', 'CNETMsg_SetConVar', 'CSVCMsg_VoiceData', 'CSVCMsg_HltvReplay', 'CSVCMsg_BSPDecal', 'CNETMsg_SplitScreenUser', 'CNETMsg_StringCmd', 'CSVCMsg_SetView', 'svc_EntityMessage', 'CSVCMsg_ServerInfo', 'CNETMsg_File', 'CSVCMsg_Print']
+all_messages == ['CSVCMsg_ServerInfo', 'CSVCMsg_SendTable', 'CSVCMsg_ClassInfo', 'CSVCMsg_SetPause', 'CSVCMsg_CreateStringTable', 'CSVCMsg_UpdateStringTable', 'CSVCMsg_VoiceInit', 'CSVCMsg_VoiceData', 'CSVCMsg_Print', 'CSVCMsg_Sounds', 'CSVCMsg_SetView', 'CSVCMsg_FixAngle', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_BSPDecal', 'CNETMsg_SplitScreenUser', 'CSVCMsg_UserMessage', 'svc_EntityMessage', 'CSVCMsg_GameEventList', 'CSVCMsg_PacketEntities', 'CSVCMsg_TempEntities', 'CSVCMsg_Prefetch', 'CSVCMsg_Menu', 'CSVCMsg_GameEventList', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_EncryptedData', 'CSVCMsg_HltvReplay', 'CSVCMsg_Broadcast_Command', 'CNETMsg_NOP', 'CNETMsg_Disconnect', 'CNETMsg_File', 'CNETMsg_SplitScreenUser', 'CNETMsg_Tick', 'CNETMsg_StringCmd', 'CNETMsg_SetConVar', 'CNETMsg_SignonState', 'CNETMsg_PlayerAvatarData']
+
+
+Difference: ['CSVCMsg_Menu', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_EncryptedData', 'CSVCMsg_Broadcast_Command', 'CNETMsg_Disconnect', 'CNETMsg_PlayerAvatarData']
+
+We won't be adding the CNETMsg_PlayerAvatarData message, because there are these warnings in netmessages.proto:
+
+
+message CNETMsg_PlayerAvatarData
+{	// 12 KB player avatar 64x64 rgb only no alpha
+	// WARNING-WARNING-WARNING
+	// This message is extremely large for our net channels
+	// and must be pumped through special fragmented waiting list
+	// via chunk-based ack mechanism!
+	// See: INetChannel::EnqueueVeryLargeAsyncTransfer
+	// WARNING-WARNING-WARNING
+	optional uint32 accountid = 1;
+	optional bytes rgb = 2;
+}
+
+After adding a couple more of the messages we get this:
+
+
+Received packet types: ['CSVCMsg_PacketEntities', 'CSVCMsg_SetPause', 'CSVCMsg_Prefetch', 'CSVCMsg_GameEventList', 'CSVCMsg_Sounds', 'CSVCMsg_TempEntities', 'CSVCMsg_UserMessage', 'CNETMsg_SignonState', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_ClassInfo', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_FixAngle', 'CNETMsg_SetConVar', 'CSVCMsg_VoiceData', 'CSVCMsg_HltvReplay', 'CSVCMsg_BSPDecal', 'CNETMsg_SplitScreenUser', 'CNETMsg_StringCmd', 'CSVCMsg_GetCvarValue', 'CSVCMsg_SetView', 'CSVCMsg_EncryptedData', 'CSVCMsg_PaintmapData', 'svc_EntityMessage', 'CSVCMsg_ServerInfo', 'CNETMsg_File', 'CSVCMsg_Print']
+all_messages == ['CSVCMsg_ServerInfo', 'CSVCMsg_SendTable', 'CSVCMsg_ClassInfo', 'CSVCMsg_SetPause', 'CSVCMsg_CreateStringTable', 'CSVCMsg_UpdateStringTable', 'CSVCMsg_VoiceInit', 'CSVCMsg_VoiceData', 'CSVCMsg_Print', 'CSVCMsg_Sounds', 'CSVCMsg_SetView', 'CSVCMsg_FixAngle', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_BSPDecal', 'CNETMsg_SplitScreenUser', 'CSVCMsg_UserMessage', 'svc_EntityMessage', 'CSVCMsg_GameEventList', 'CSVCMsg_PacketEntities', 'CSVCMsg_TempEntities', 'CSVCMsg_Prefetch', 'CSVCMsg_Menu', 'CSVCMsg_GameEventList', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_EncryptedData', 'CSVCMsg_HltvReplay', 'CSVCMsg_Broadcast_Command', 'CNETMsg_NOP', 'CNETMsg_Disconnect', 'CNETMsg_File', 'CNETMsg_SplitScreenUser', 'CNETMsg_Tick', 'CNETMsg_StringCmd', 'CNETMsg_SetConVar', 'CNETMsg_SignonState', 'CNETMsg_PlayerAvatarData']
+Difference: ['CSVCMsg_Menu', 'CSVCMsg_Broadcast_Command', 'CNETMsg_Disconnect', 'CNETMsg_PlayerAvatarData']
+
+
+
+
+
+
+
+
+
+
+

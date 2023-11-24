@@ -1,0 +1,23 @@
+{8: 'svc_ServerInfo', 9: 'svc_SendTable', 10: 'svc_ClassInfo', 11: 'svc_SetPause', 12: 'svc_CreateStringTable', 13: 'svc_UpdateStringTable', 14: 'svc_VoiceInit', 15: 'svc_VoiceData', 16: 'svc_Print', 17: 'svc_Sounds', 18: 'svc_SetView', 19: 'svc_FixAngle', 20: 'svc_CrosshairAngle', 21: 'svc_BSPDecal', 22: 'svc_SplitScreen', 23: 'svc_UserMessage', 24: 'svc_EntityMessage', 25: 'svc_GameEvent', 26: 'svc_PacketEntities', 27: 'svc_TempEntities', 28: 'svc_Prefetch', 29: 'svc_Menu', 30: 'svc_GameEventList', 31: 'svc_GetCvarValue', 33: 'svc_PaintmapData', 34: 'svc_CmdKeyValues', 35: 'svc_EncryptedData', 36: 'svc_HltvReplay', 38: 'svc_Broadcast_Command', 0: 'net_NOP', 1: 'net_Disconnect', 2: 'net_File', 3: 'net_SplitScreenUser', 4: 'net_Tick', 5: 'net_StringCmd', 6: 'net_SetConVar', 7: 'net_SignonState', 100: 'net_PlayerAvatarData'}
+Types: {8: 'TYPE_BOOL', 12: 'TYPE_BYTES', 1: 'TYPE_DOUBLE', 14: 'TYPE_ENUM', 7: 'TYPE_FIXED32', 6: 'TYPE_FIXED64', 2: 'TYPE_FLOAT', 10: 'TYPE_GROUP', 5: 'TYPE_INT32', 3: 'TYPE_INT64', 11: 'TYPE_MESSAGE', 15: 'TYPE_SFIXED32', 16: 'TYPE_SFIXED64', 17: 'TYPE_SINT32', 18: 'TYPE_SINT64', 9: 'TYPE_STRING', 13: 'TYPE_UINT32', 4: 'TYPE_UINT64'}
+What kind of message would you like?
+Available messages: {8: 'CSVCMsg_ServerInfo', 9: 'CSVCMsg_SendTable', 10: 'CSVCMsg_ClassInfo', 11: 'CSVCMsg_SetPause', 12: 'CSVCMsg_CreateStringTable', 13: 'CSVCMsg_UpdateStringTable', 14: 'CSVCMsg_VoiceInit', 15: 'CSVCMsg_VoiceData', 16: 'CSVCMsg_Print', 17: 'CSVCMsg_Sounds', 18: 'CSVCMsg_SetView', 19: 'CSVCMsg_FixAngle', 20: 'CSVCMsg_CrosshairAngle', 21: 'CSVCMsg_BSPDecal', 22: 'CNETMsg_SplitScreenUser', 23: 'CSVCMsg_UserMessage', 24: 'CSVCMsg_EntityMsg', 25: 'CSVCMsg_GameEventList', 26: 'CSVCMsg_PacketEntities', 27: 'CSVCMsg_TempEntities', 28: 'CSVCMsg_Prefetch', 29: 'CSVCMsg_Menu', 30: 'CSVCMsg_GameEventList', 31: 'CSVCMsg_GetCvarValue', 33: 'CSVCMsg_PaintmapData', 34: 'CSVCMsg_CmdKeyValues', 35: 'CSVCMsg_EncryptedData', 36: 'CSVCMsg_HltvReplay', 38: 'CSVCMsg_Broadcast_Command', 0: 'CNETMsg_NOP', 1: 'CNETMsg_Disconnect', 2: 'CNETMsg_File', 3: 'CNETMsg_SplitScreenUser', 4: 'CNETMsg_Tick', 5: 'CNETMsg_StringCmd', 6: 'CNETMsg_SetConVar', 7: 'CNETMsg_SignonState', 100: 'CNETMsg_PlayerAvatarData'}
+Which one? : 
+> shitoof:
+message_type ==CSVCMsg_EntityMsg
+proto.message_type == 24
+=============================
+2222222222222222222222222
+Which element of the message would you like to modify? (type "DONE" to get your message to a file.)
+['ent_index', 'class_id', 'ent_data']
+> Please enter your input (must be of type 5 aka TYPE_INT32) Casting to integer.
+Which element of the message would you like to modify? (type "DONE" to get your message to a file.)
+['ent_index', 'class_id', 'ent_data']
+> Please enter your input (must be of type 5 aka TYPE_INT32) Casting to integer.
+Which element of the message would you like to modify? (type "DONE" to get your message to a file.)
+['ent_index', 'class_id', 'ent_data']
+> Please enter your input (must be of type 12 aka TYPE_BYTES) Which element of the message would you like to modify? (type "DONE" to get your message to a file.)
+['ent_index', 'class_id', 'ent_data']
+> NÀÄÿÿÿÿb'\x08\x90N\x10\xc0\xc4\x07\x1a\x04\xff\xff\xff\xff'
+type bytes: b'\x18'
+Which file do you want to save the packet to? : [+] Done

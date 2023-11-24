@@ -1,0 +1,5 @@
+CSVCMsg_PaintmapData
+paintmap
+0xffffffffffffffff
+DONE
+paintmapdata.bin

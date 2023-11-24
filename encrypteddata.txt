@@ -1,0 +1,7 @@
+CSVCMsg_EncryptedData
+key_type
+1234
+encrypted
+0xffffffff
+DONE
+encrypteddata.bin

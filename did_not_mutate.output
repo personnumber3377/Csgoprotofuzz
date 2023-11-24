@@ -1,0 +1,2710 @@
+{8: 'svc_ServerInfo', 9: 'svc_SendTable', 10: 'svc_ClassInfo', 11: 'svc_SetPause', 12: 'svc_CreateStringTable', 13: 'svc_UpdateStringTable', 14: 'svc_VoiceInit', 15: 'svc_VoiceData', 16: 'svc_Print', 17: 'svc_Sounds', 18: 'svc_SetView', 19: 'svc_FixAngle', 20: 'svc_CrosshairAngle', 21: 'svc_BSPDecal', 22: 'svc_SplitScreen', 23: 'svc_UserMessage', 24: 'svc_EntityMessage', 25: 'svc_GameEvent', 26: 'svc_PacketEntities', 27: 'svc_TempEntities', 28: 'svc_Prefetch', 29: 'svc_Menu', 30: 'svc_GameEventList', 31: 'svc_GetCvarValue', 33: 'svc_PaintmapData', 34: 'svc_CmdKeyValues', 35: 'svc_EncryptedData', 36: 'svc_HltvReplay', 38: 'svc_Broadcast_Command', 0: 'net_NOP', 1: 'net_Disconnect', 2: 'net_File', 3: 'net_SplitScreenUser', 4: 'net_Tick', 5: 'net_StringCmd', 6: 'net_SetConVar', 7: 'net_SignonState', 100: 'net_PlayerAvatarData'}
+Count: 37
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket040.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket305.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket265.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket077.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket217.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket153.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket148.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket061.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket108.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket049.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket107.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: msg_type: 25
+msg_data: "\010\001"
+
+New message: msg_type: 25
+msg_data: "\010\001"
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_UserMessage'>
+==================================================
+Filename tests/bufferpacket1065.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket140.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket198.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket054.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket307.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket142.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket294.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket146.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket012.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket200.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket032.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket071.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket048.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket027.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket255.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket171.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket104.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket068.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket297.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket184.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket187.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket206.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket208.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket006.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket041.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket115.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket070.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket292.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket308.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket055.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket128.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: reliable_sound: false
+sounds {
+  origin_x: -40
+  origin_y: -62
+  origin_z: 0
+  volume: 107
+  sequence_number: 3
+  entity_index: 6
+  channel: 4
+  pitch: 110
+  flags: 1024
+  sound_num_handle: 421738566
+  sound_level: 90
+}
+sounds {
+  channel: 0
+  sound_num_handle: 1959274417
+  sound_level: 75
+}
+sounds {
+  origin_x: -41
+  origin_y: -62
+  origin_z: 5
+  volume: 127
+  pitch: 100
+  sound_num_handle: 3296004453
+  random_seed: 8
+  sound_level: 90
+}
+sounds {
+  channel: 4
+  pitch: 110
+  sound_num_handle: 229899516
+  random_seed: 63
+}
+
+New message: reliable_sound: false
+sounds {
+  origin_x: -40
+  origin_y: -62
+  origin_z: 0
+  volume: 107
+  sequence_number: 3
+  entity_index: 6
+  channel: 4
+  pitch: 110
+  flags: 1024
+  sound_num_handle: 421738566
+  sound_level: 90
+}
+sounds {
+  channel: 0
+  sound_num_handle: 1959274417
+  sound_level: 75
+}
+sounds {
+  origin_x: -41
+  origin_y: -62
+  origin_z: 5
+  volume: 127
+  pitch: 100
+  sound_num_handle: 3296004453
+  random_seed: 8
+  sound_level: 90
+}
+sounds {
+  channel: 4
+  pitch: 110
+  sound_num_handle: 229899516
+  random_seed: 63
+}
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_Sounds'>
+==================================================
+Filename tests/bufferpacket3682.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket177.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket050.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket141.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket034.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: msg_type: 25
+msg_data: "\010\001"
+
+New message: msg_type: 25
+msg_data: "\010\001"
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_UserMessage'>
+==================================================
+Filename tests/bufferpacket1606.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket028.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket098.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket051.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket180.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket087.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket042.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket162.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket047.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket024.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket157.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket136.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket302.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket202.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket037.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket097.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket263.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket257.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket216.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket092.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket259.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket193.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket113.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket256.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket036.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket261.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket159.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket150.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket029.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket264.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket086.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket026.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket138.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket127.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket096.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket102.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket201.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket016.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket179.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket213.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket010.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket038.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket130.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket116.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket088.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket209.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket167.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket089.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket268.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket015.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket017.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket095.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket152.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket161.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket033.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket046.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket075.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket117.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket194.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket129.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket120.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket090.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket168.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket125.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket103.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket066.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket166.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket072.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket105.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket266.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket002.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket118.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket175.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket052.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket021.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket291.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket083.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket196.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket001.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket204.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket064.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket183.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket214.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket106.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket211.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket258.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket099.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket170.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket085.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket045.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket035.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket000.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket254.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket293.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket018.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket178.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket082.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket267.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket145.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket030.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket014.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket007.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket079.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket155.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket299.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket135.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket019.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket295.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket158.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket133.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket154.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket112.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket147.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket121.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket192.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket210.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket303.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket058.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket131.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket020.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket109.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: msg_type: 25
+msg_data: "\010\001"
+
+New message: msg_type: 25
+msg_data: "\010\001"
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_UserMessage'>
+==================================================
+Filename tests/bufferpacket352.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: reliable_sound: false
+sounds {
+  origin_x: -105
+  origin_y: -98
+  origin_z: 22
+  sequence_number: 1
+  entity_index: 282
+  channel: 3
+  flags: 1024
+  sound_num_handle: 915170351
+  random_seed: 21
+}
+sounds {
+  origin_x: -102
+  origin_y: -98
+  origin_z: 14
+  random_seed: 29
+}
+sounds {
+  origin_x: -56
+  origin_y: -49
+  origin_z: 0
+  volume: 63
+  entity_index: 4
+  channel: 4
+  pitch: 110
+  sound_num_handle: 229899516
+  random_seed: 0
+  sound_level: 90
+}
+sounds {
+  channel: 0
+  sound_num_handle: 1959274417
+  sound_level: 75
+}
+
+New message: reliable_sound: false
+sounds {
+  origin_x: -105
+  origin_y: -98
+  origin_z: 22
+  sequence_number: 1
+  entity_index: 282
+  channel: 3
+  flags: 1024
+  sound_num_handle: 915170351
+  random_seed: 21
+}
+sounds {
+  origin_x: -102
+  origin_y: -98
+  origin_z: 14
+  random_seed: 29
+}
+sounds {
+  origin_x: -56
+  origin_y: -49
+  origin_z: 0
+  volume: 63
+  entity_index: 4
+  channel: 4
+  pitch: 110
+  sound_num_handle: 229899516
+  random_seed: 0
+  sound_level: 90
+}
+sounds {
+  channel: 0
+  sound_num_handle: 1959274417
+  sound_level: 75
+}
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_Sounds'>
+==================================================
+Filename tests/bufferpacket2382.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket084.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket186.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket065.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket176.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket160.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket182.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket173.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: msg_type: 19
+msg_data: "\n\004\010\001\020\000\n\004\010\000\020\000\020\001"
+
+New message: msg_type: 19
+msg_data: "\n\004\010\001\020\000\n\004\010\000\020\000\020\001"
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_UserMessage'>
+==================================================
+Filename tests/bufferpacket804.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket114.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket164.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket215.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket044.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: msg_type: 25
+msg_data: "\010\001\022\033\010\004\020#\030\335\376\377\377\377\377\377\377\377\001 A(\002068\000@\000H\000\022.\010\005\020#\030\242\377\377\377\377\377\377\377\377\001 \211\003(\341\377\377\377\377\377\377\377\377\0010\244\377\377\377\377\377\377\377\377\0018\000@\001H\000\022$\010\006\020#\030\227\377\377\377\377\377\377\377\377\001 \265\377\377\377\377\377\377\377\377\001(\0000Z8\000@\000H\000\022$\010\007\020#\030\231\377\377\377\377\377\377\377\377\001 \370\377\377\377\377\377\377\377\377\001(\0000Z8\000@\000H\000\022.\010\010\020#\030\243\377\377\377\377\377\377\377\377\001 \201\003(\341\377\377\377\377\377\377\377\377\0010\244\377\377\377\377\377\377\377\377\0018\000@\001H\000\022\034\010\n\020#\030\224\377\377\377\377\377\377\377\377\001 \206\001(\0010Z8\000@\000H\000"
+
+New message: msg_type: 25
+msg_data: "\010\001\022\033\010\004\020#\030\335\376\377\377\377\377\377\377\377\001 A(\002068\000@\000H\000\022.\010\005\020#\030\242\377\377\377\377\377\377\377\377\001 \211\003(\341\377\377\377\377\377\377\377\377\0010\244\377\377\377\377\377\377\377\377\0018\000@\001H\000\022$\010\006\020#\030\227\377\377\377\377\377\377\377\377\001 \265\377\377\377\377\377\377\377\377\001(\0000Z8\000@\000H\000\022$\010\007\020#\030\231\377\377\377\377\377\377\377\377\001 \370\377\377\377\377\377\377\377\377\001(\0000Z8\000@\000H\000\022.\010\010\020#\030\243\377\377\377\377\377\377\377\377\001 \201\003(\341\377\377\377\377\377\377\377\377\0010\244\377\377\377\377\377\377\377\377\0018\000@\001H\000\022\034\010\n\020#\030\224\377\377\377\377\377\377\377\377\001 \206\001(\0010Z8\000@\000H\000"
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_UserMessage'>
+==================================================
+Filename tests/bufferpacket3914.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket306.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket069.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: reliable_sound: false
+sounds {
+  origin_x: -105
+  origin_y: -98
+  origin_z: 22
+  sequence_number: 1
+  entity_index: 279
+  channel: 3
+  flags: 1024
+  sound_num_handle: 915170351
+  random_seed: 33
+}
+sounds {
+  origin_x: -102
+  origin_y: -98
+  origin_z: 14
+  random_seed: 17
+}
+sounds {
+  origin_x: -45
+  origin_y: -59
+  origin_z: 5
+  entity_index: 10
+  channel: 0
+  pitch: 98
+  sound_num_handle: 3296004453
+  random_seed: 62
+  sound_level: 90
+}
+sounds {
+  channel: 4
+  pitch: 110
+  sound_num_handle: 229899516
+  random_seed: 55
+}
+
+New message: reliable_sound: false
+sounds {
+  origin_x: -105
+  origin_y: -98
+  origin_z: 22
+  sequence_number: 1
+  entity_index: 279
+  channel: 3
+  flags: 1024
+  sound_num_handle: 915170351
+  random_seed: 33
+}
+sounds {
+  origin_x: -102
+  origin_y: -98
+  origin_z: 14
+  random_seed: 17
+}
+sounds {
+  origin_x: -45
+  origin_y: -59
+  origin_z: 5
+  entity_index: 10
+  channel: 0
+  pitch: 98
+  sound_num_handle: 3296004453
+  random_seed: 62
+  sound_level: 90
+}
+sounds {
+  channel: 4
+  pitch: 110
+  sound_num_handle: 229899516
+  random_seed: 55
+}
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_Sounds'>
+==================================================
+Filename tests/bufferpacket2345.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket122.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket207.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket172.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket073.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket219.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket151.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket110.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket078.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: paused: false
+
+New message: paused: false
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_SetPause'>
+==================================================
+Filename tests/bufferpacket4025.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket056.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket169.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket220.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket123.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket023.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket119.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket013.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket011.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket076.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket009.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket191.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket181.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket195.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket062.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket185.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket298.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket126.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket199.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket063.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket212.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket188.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket005.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket111.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket067.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket189.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket205.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket074.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket039.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket022.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket101.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket300.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket031.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: reliable_sound: false
+sounds {
+  origin_x: -61
+  origin_y: -98
+  origin_z: 15
+  sequence_number: 1
+  entity_index: 492
+  channel: 3
+  flags: 1024
+  sound_num_handle: 2351383657
+  random_seed: 41
+}
+sounds {
+  origin_x: -61
+  origin_y: -101
+  origin_z: 20
+  entity_index: 1
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 16
+  sound_level: 326
+}
+sounds {
+  origin_x: -60
+  origin_y: -98
+  origin_z: 23
+  entity_index: 495
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 17
+  sound_level: 75
+}
+sounds {
+  origin_x: -61
+  origin_y: -101
+  origin_z: 20
+  entity_index: 1
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 23
+  sound_level: 326
+}
+sounds {
+  origin_x: -60
+  origin_y: -100
+  origin_z: 14
+  entity_index: 495
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 18
+  sound_level: 75
+}
+sounds {
+  random_seed: 50
+}
+sounds {
+  random_seed: 63
+}
+sounds {
+  origin_x: -43
+  origin_y: -94
+  origin_z: 11
+  entity_index: 497
+  pitch: 98
+  sound_num_handle: 2351383657
+  random_seed: 61
+}
+sounds {
+  origin_x: -41
+  origin_y: -94
+  origin_z: 15
+  entity_index: 4
+  channel: 1
+  pitch: 100
+  sound_num_handle: 3500493171
+  random_seed: 39
+  sound_level: 326
+}
+sounds {
+  origin_x: -43
+  origin_y: -94
+  origin_z: 18
+  entity_index: 500
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 51
+  sound_level: 75
+}
+sounds {
+  origin_x: -41
+  origin_y: -94
+  origin_z: 15
+  entity_index: 4
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 42
+  sound_level: 326
+}
+sounds {
+  origin_x: -40
+  origin_y: -93
+  origin_z: 9
+  entity_index: 500
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 3
+  sound_level: 75
+}
+sounds {
+  random_seed: 59
+}
+sounds {
+  random_seed: 35
+}
+sounds {
+  origin_x: 41
+  origin_y: 304
+  origin_z: -11
+  entity_index: 5
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 28
+  sound_level: 326
+}
+sounds {
+  origin_x: 39
+  origin_y: 303
+  origin_z: -15
+  entity_index: 502
+  channel: 3
+  sound_num_handle: 1701384487
+  random_seed: 54
+  sound_level: 75
+}
+sounds {
+  origin_x: 41
+  origin_y: 304
+  origin_z: -11
+  entity_index: 5
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 55
+  sound_level: 326
+}
+sounds {
+  origin_x: 39
+  origin_y: 303
+  origin_z: -8
+  entity_index: 505
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 32
+  sound_level: 75
+}
+sounds {
+  origin_x: 41
+  origin_y: 304
+  origin_z: -11
+  entity_index: 5
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 35
+  sound_level: 326
+}
+sounds {
+  origin_x: 43
+  origin_y: 304
+  origin_z: -16
+  entity_index: 505
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 15
+  sound_level: 75
+}
+
+New message: reliable_sound: false
+sounds {
+  origin_x: -61
+  origin_y: -98
+  origin_z: 15
+  sequence_number: 1
+  entity_index: 492
+  channel: 3
+  flags: 1024
+  sound_num_handle: 2351383657
+  random_seed: 41
+}
+sounds {
+  origin_x: -61
+  origin_y: -101
+  origin_z: 20
+  entity_index: 1
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 16
+  sound_level: 326
+}
+sounds {
+  origin_x: -60
+  origin_y: -98
+  origin_z: 23
+  entity_index: 495
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 17
+  sound_level: 75
+}
+sounds {
+  origin_x: -61
+  origin_y: -101
+  origin_z: 20
+  entity_index: 1
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 23
+  sound_level: 326
+}
+sounds {
+  origin_x: -60
+  origin_y: -100
+  origin_z: 14
+  entity_index: 495
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 18
+  sound_level: 75
+}
+sounds {
+  random_seed: 50
+}
+sounds {
+  random_seed: 63
+}
+sounds {
+  origin_x: -43
+  origin_y: -94
+  origin_z: 11
+  entity_index: 497
+  pitch: 98
+  sound_num_handle: 2351383657
+  random_seed: 61
+}
+sounds {
+  origin_x: -41
+  origin_y: -94
+  origin_z: 15
+  entity_index: 4
+  channel: 1
+  pitch: 100
+  sound_num_handle: 3500493171
+  random_seed: 39
+  sound_level: 326
+}
+sounds {
+  origin_x: -43
+  origin_y: -94
+  origin_z: 18
+  entity_index: 500
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 51
+  sound_level: 75
+}
+sounds {
+  origin_x: -41
+  origin_y: -94
+  origin_z: 15
+  entity_index: 4
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 42
+  sound_level: 326
+}
+sounds {
+  origin_x: -40
+  origin_y: -93
+  origin_z: 9
+  entity_index: 500
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 3
+  sound_level: 75
+}
+sounds {
+  random_seed: 59
+}
+sounds {
+  random_seed: 35
+}
+sounds {
+  origin_x: 41
+  origin_y: 304
+  origin_z: -11
+  entity_index: 5
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 28
+  sound_level: 326
+}
+sounds {
+  origin_x: 39
+  origin_y: 303
+  origin_z: -15
+  entity_index: 502
+  channel: 3
+  sound_num_handle: 1701384487
+  random_seed: 54
+  sound_level: 75
+}
+sounds {
+  origin_x: 41
+  origin_y: 304
+  origin_z: -11
+  entity_index: 5
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 55
+  sound_level: 326
+}
+sounds {
+  origin_x: 39
+  origin_y: 303
+  origin_z: -8
+  entity_index: 505
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 32
+  sound_level: 75
+}
+sounds {
+  origin_x: 41
+  origin_y: 304
+  origin_z: -11
+  entity_index: 5
+  channel: 1
+  sound_num_handle: 3500493171
+  random_seed: 35
+  sound_level: 326
+}
+sounds {
+  origin_x: 43
+  origin_y: 304
+  origin_z: -16
+  entity_index: 505
+  channel: 3
+  sound_num_handle: 915170351
+  random_seed: 15
+  sound_level: 75
+}
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_Sounds'>
+==================================================
+Filename tests/bufferpacket1034.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket174.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket059.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket025.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket301.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket197.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket296.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket190.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket137.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket203.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket124.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket260.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket218.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket053.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: angle {
+  x: 0.0
+  y: 0.0
+  z: 0.0
+}
+
+New message: angle {
+  x: 0.0
+  y: 0.0
+  z: 0.0
+}
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_CrosshairAngle'>
+==================================================
+Filename tests/bufferpacket976.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket081.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket262.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket008.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket165.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket057.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket304.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: msg_type: 1
+msg_data: "\n\010overview\020\000"
+
+New message: msg_type: 1
+msg_data: "\n\010overview\020\000"
+
+type(message) == <class 'netmessages_pb2.CSVCMsg_UserMessage'>
+==================================================
+Filename tests/bufferpacket708.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket156.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket080.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket060.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket163.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket143.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket043.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket094.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket139.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket100.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket149.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket132.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket091.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket134.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket093.dat did not get mutated for some reason.
+==================================================
+Mutated: True
+Mutated message is the same as original message! This shouldn't happen!
+Original message: 
+New message: 
+type(message) == <class 'netmessages_pb2.CNETMsg_NOP'>
+==================================================
+Filename tests/bufferpacket144.dat did not get mutated for some reason.
+All user messages: 63
+Failed user: 6

@@ -1,0 +1,5 @@
+CNETMsg_SplitScreenUser
+slot
+10000
+DONE
+splitscreen.bin

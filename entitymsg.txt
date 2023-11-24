@@ -1,0 +1,9 @@
+CSVCMsg_EntityMsg
+ent_index
+10000
+class_id
+123456
+ent_data
+0xffffffff
+DONE
+entitymessage.bin

@@ -1,0 +1,11 @@
+raceback (most recent call last):
+  File "/home/cyberhacker/Fuzzingpackets/protobuffuzzer/protofuzz/myfuzzer_dev.py", line 1218, in fuzz
+    message = mutate_message(message, message_type)
+  File "/home/cyberhacker/Fuzzingpackets/protobuffuzzer/protofuzz/myfuzzer_dev.py", line 1086, in mutate_message
+    print("len(message) == "+str(len(message)))
+TypeError: object of type 'CSVCMsg_UserMessage' has no len()
+
+[-] PROGRAM ABORT : python custom fuzz: call failed
+         Location : fuzz_py(), src/afl-fuzz-python.c:148
+
+

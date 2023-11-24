@@ -1,0 +1,20 @@
+
+message._message_descriptor.__dir__() == ['_options', '_options_class_name', '_serialized_options', 'has_options', 'name', 'full_name', 'file', 'containing_type', '_serialized_start', '_serialized_end', 'fields', 'fields_by_number', 'fields_by_name', '_fields_by_camelcase_name', 'nested_types', 'nested_types_by_name', 'enum_types', 'enum_types_by_name', 'enum_values_by_name', 'extensions', 'extensions_by_name', 'is_extendable', 'extension_ranges', 'oneofs', 'oneofs_by_name', 'syntax', '_concrete_class', '__module__', '__doc__', '__init__', 'fields_by_camelcase_name', 'EnumValueName', 'CopyToProto', '_SetOptions', 'GetOptions', '__dict__', '__weakref__', '__repr__', '__hash__', '__str__', '__getattribute__', '__setattr__', '__delattr__', '__lt__', '__le__', '__eq__', '__ne__', '__gt__', '__ge__', '__new__', '__reduce_ex__', '__reduce__', '__subclasshook__', '__init_subclass__', '__format__', '__sizeof__', '__dir__', '__class__']
+message._message_descriptor.enum_types == []
+
+
+
+
+
+
+
+
+
+
+
+
+
+['DESCRIPTOR', '__module__', '__slots__', '_cached_byte_size', '_cached_byte_size_dirty', '_fields', '_is_present_in_parent', '_listener', '_listener_for_children', '_oneofs', '_unknown_fields', '__weakref__', '__doc__', '_decoders_by_tag', '__init__', 'MESSAGE_SET_WIRE_FORMAT_FIELD_NUMBER', 'message_set_wire_format', 'NO_STANDARD_DESCRIPTOR_ACCESSOR_FIELD_NUMBER', 'no_standard_descriptor_accessor', 'DEPRECATED_FIELD_NUMBER', 'deprecated', 'MAP_ENTRY_FIELD_NUMBER', 'map_entry', 'UNINTERPRETED_OPTION_FIELD_NUMBER', 'uninterpreted_option', 'Extensions', '_extensions_by_number', '_extensions_by_name', 'RegisterExtension', 'FromString', 'ListFields', 'HasField', 'ClearField', 'ClearExtension', 'HasExtension', '__eq__', '__str__', '__repr__', '__unicode__', 'ByteSize', 'SerializeToString', 'SerializePartialToString', '_InternalSerialize', 'MergeFromString', '_InternalParse', 'IsInitialized', 'FindInitializationErrors', 'MergeFrom', 'WhichOneof', '__reduce__', 'Clear', 'DiscardUnknownFields', '_SetListener', '_Modified', 'SetInParent', '_UpdateOneofState', '__deepcopy__', '__ne__', '__hash__', 'CopyFrom', 'ParseFromString', '__getstate__', '__setstate__', '__getattribute__', '__setattr__', '__delattr__', '__lt__', '__le__', '__gt__', '__ge__', '__new__', '__reduce_ex__', '__subclasshook__', '__init_subclass__', '__format__', '__sizeof__', '__dir__', '__class__']
+
+
+

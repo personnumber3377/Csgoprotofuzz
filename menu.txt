@@ -1,0 +1,7 @@
+CSVCMsg_Menu
+dialog_type
+1
+menu_key_values
+0xffffffff
+DONE
+menu.bin

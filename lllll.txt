@@ -1,0 +1,31 @@
+{8: 'svc_ServerInfo', 9: 'svc_SendTable', 10: 'svc_ClassInfo', 11: 'svc_SetPause', 12: 'svc_CreateStringTable', 13: 'svc_UpdateStringTable', 14: 'svc_VoiceInit', 15: 'svc_VoiceData', 16: 'svc_Print', 17: 'svc_Sounds', 18: 'svc_SetView', 19: 'svc_FixAngle', 20: 'svc_CrosshairAngle', 21: 'svc_BSPDecal', 22: 'svc_SplitScreen', 23: 'svc_UserMessage', 24: 'svc_EntityMessage', 25: 'svc_GameEvent', 26: 'svc_PacketEntities', 27: 'svc_TempEntities', 28: 'svc_Prefetch', 29: 'svc_Menu', 30: 'svc_GameEventList', 31: 'svc_GetCvarValue', 33: 'svc_PaintmapData', 34: 'svc_CmdKeyValues', 35: 'svc_EncryptedData', 36: 'svc_HltvReplay', 38: 'svc_Broadcast_Command', 0: 'net_NOP', 1: 'net_Disconnect', 2: 'net_File', 3: 'net_SplitScreenUser', 4: 'net_Tick', 5: 'net_StringCmd', 6: 'net_SetConVar', 7: 'net_SignonState', 100: 'net_PlayerAvatarData'}
+Current file count: 0
+Current file count: 1000
+Current file count: 2000
+Current file count: 3000
+Current file count: 4000
+Current file count: 5000
+Current file count: 6000
+Current file count: 7000
+Current file count: 8000
+Current file count: 9000
+Current file count: 10000
+Current file count: 11000
+Current file count: 12000
+Current file count: 13000
+Current file count: 14000
+Current file count: 15000
+Current file count: 16000
+Current file count: 17000
+Current file count: 18000
+Current file count: 19000
+Current file count: 20000
+Current file count: 21000
+Current file count: 22000
+Current file count: 23000
+Current file count: 24000
+Current file count: 25000
+Current file count: 26000
+Received packet types: ['CSVCMsg_PacketEntities', 'CSVCMsg_SetPause', 'CSVCMsg_Prefetch', 'CSVCMsg_GameEventList', 'CSVCMsg_Sounds', 'CSVCMsg_TempEntities', 'CSVCMsg_UserMessage', 'CNETMsg_SignonState', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_ClassInfo', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_FixAngle', 'CNETMsg_SetConVar', 'CSVCMsg_VoiceData', 'CSVCMsg_HltvReplay', 'CSVCMsg_BSPDecal', 'CNETMsg_SplitScreenUser', 'CNETMsg_StringCmd', 'CSVCMsg_GetCvarValue', 'CSVCMsg_Menu', 'CSVCMsg_SetView', 'CSVCMsg_EncryptedData', 'CSVCMsg_Broadcast_Command', 'CSVCMsg_PaintmapData', 'svc_EntityMessage', 'CSVCMsg_ServerInfo', 'CNETMsg_File', 'CSVCMsg_Print']
+all_messages == ['CSVCMsg_ServerInfo', 'CSVCMsg_SendTable', 'CSVCMsg_ClassInfo', 'CSVCMsg_SetPause', 'CSVCMsg_CreateStringTable', 'CSVCMsg_UpdateStringTable', 'CSVCMsg_VoiceInit', 'CSVCMsg_VoiceData', 'CSVCMsg_Print', 'CSVCMsg_Sounds', 'CSVCMsg_SetView', 'CSVCMsg_FixAngle', 'CSVCMsg_CrosshairAngle', 'CSVCMsg_BSPDecal', 'CNETMsg_SplitScreenUser', 'CSVCMsg_UserMessage', 'svc_EntityMessage', 'CSVCMsg_GameEventList', 'CSVCMsg_PacketEntities', 'CSVCMsg_TempEntities', 'CSVCMsg_Prefetch', 'CSVCMsg_Menu', 'CSVCMsg_GameEventList', 'CSVCMsg_GetCvarValue', 'CSVCMsg_PaintmapData', 'CSVCMsg_CmdKeyValues', 'CSVCMsg_EncryptedData', 'CSVCMsg_HltvReplay', 'CSVCMsg_Broadcast_Command', 'CNETMsg_NOP', 'CNETMsg_Disconnect', 'CNETMsg_File', 'CNETMsg_SplitScreenUser', 'CNETMsg_Tick', 'CNETMsg_StringCmd', 'CNETMsg_SetConVar', 'CNETMsg_SignonState', 'CNETMsg_PlayerAvatarData']
+Difference: []
