@@ -216,7 +216,7 @@ CS_UM_EndOfMatchAllPlayersData = 75;'''
 
 usermessage_types = {}
 ban_list = ['CNETMsg_Tick', 'CNETMsg_NOP', 'CSVCMsg_VoiceInit']
-
+allow_list = ['CSVCMsg_PacketEntities']
 SAVE_CHANCE = 0.2
 usermessage_stuff = usermessage_string.split("\n")
 
@@ -1229,8 +1229,14 @@ try:
 	type_bytes = get_length_bytes(message_id) # the message_id ( which is also VarInt32 )
 	#print("type bytes: "+str(type_bytes))
 
-	if (message_type not in ban_list and random.random() < SAVE_CHANCE) or message_type == "CSVCMsg_UserMessage":
+	if allow_list != []:
+		value = message_type in allow_list
+	else:
+		value = True
 
+	#if ((message_type not in ban_list and random.random() < SAVE_CHANCE) and value) or message_type == "CSVCMsg_UserMessage":
+	if ((message_type not in ban_list and random.random() < SAVE_CHANCE) and value):
+		print("Saving packet with type : "+str(message_type))
 		if len(bytes(type_bytes)+bytes(len_bytes)+mut_msg_bytes) > max_size:
 			#return bytearray(original_message)
 			save_packet(bytearray(original_message), count)
@@ -1280,7 +1286,7 @@ def load_from_file(filename):
 
 def save_packet(packet, count):
 
-	fh = open("corpus2/packet"+str(count)+".bin", "wb+")
+	fh = open("packetentitiescorpus/packet"+str(count)+".bin", "wb+")
 	fh.write(packet)
 	fh.close()
 

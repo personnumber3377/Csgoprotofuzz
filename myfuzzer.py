@@ -723,6 +723,23 @@ message CSVCMsg_UpdateStringTable
 
 	if msg_type == "CNETMsg_File":
 		msg, thing = stuff_thing(msg, field, [["transfer_id", "int"],["file_name", "string"], ["is_replay_demo_file", "bool"], ["deny", "bool"]])
+	
+	'''
+	message CSVCMsg_PacketEntities
+	{
+		optional int32 max_entries = 1;
+		optional int32 updated_entries = 2;
+		optional bool is_delta = 3;	
+		optional bool update_baseline = 4;
+		optional int32 baseline = 5;
+		optional int32 delta_from = 6;
+		optional bytes entity_data = 7;
+	}
+	'''
+
+	if msg_type == "CSVCMsg_PacketEntities":
+		msg, thing = stuff_thing(msg, field, [["max_entries", "int"],["updated_entries", "int"], ["is_delta", "bool"], ["update_baseline", "bool"], ["baseline", "int"],["delta_from", "int"], ["entity_data", "bytes"]])
+
 
 
 	'''
