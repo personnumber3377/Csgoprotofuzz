@@ -370,9 +370,9 @@ def get_length_bytes(length_integer):
 
 
 
-def mutate_user_message(message):
+#def mutate_user_message(message):
 
-	
+
 
 
 

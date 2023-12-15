@@ -14,6 +14,13 @@ from google.protobuf.internal.containers import RepeatedCompositeFieldContainer
 
 
 
+def debug_log(string: str) -> None:
+	fh = open("/home/cyberhacker/mutator_log", "a")
+	fh.write("[+] " + string + "\n")
+	fh.close()
+
+
+
 AS_MAIN = 0
 global alluser
 global faileduser
@@ -723,18 +730,25 @@ def stuff_thing(msg, field, list_oof):
 		if field_type == "bool":
 			msg, thing = bool_thing(msg, field, field_string)
 			if thing:
+				debug_log("Mutated "+str(field_string)+" field which is type "+str(field_type))
+				if field_string == "is_delta":
+					debug_log("Here is the message:")
+					debug_log(str(msg))
 				return msg, True
 		elif field_type == "int":
 			msg, thing = int_thing(msg, field, field_string)
 			if thing:
+				debug_log("Mutated "+str(field_string)+" field which is type "+str(field_type))
 				return msg, True
 		elif field_type == "bytes":
 			msg, thing = bytes_thing(msg, field, field_string)
 			if thing:
+				debug_log("Mutated "+str(field_string)+" field which is type "+str(field_type))
 				return msg, True
 		elif field_type == "string":
 			msg, thing = string_thing(msg, field, field_string)
 			if thing:
+				debug_log("Mutated "+str(field_string)+" field which is type "+str(field_type))
 				return msg, True
 		elif field_type == "message":
 
@@ -917,7 +931,11 @@ message CSVCMsg_UpdateStringTable
 	if msg_type == "CNETMsg_File":
 		msg, thing = stuff_thing(msg, field, [["transfer_id", "int"],["file_name", "string"], ["is_replay_demo_file", "bool"], ["deny", "bool"]])
 
+	if msg_type == "CSVCMsg_PacketEntities":
+		debug_log("We are in the msg_type == CSVCMsg_PacketEntities case !")
 
+		msg, thing = stuff_thing(msg, field, [["max_entries", "int"],["updated_entries", "int"], ["is_delta", "bool"], ["update_baseline", "bool"], ["baseline", "int"],["delta_from", "int"], ["entity_data", "bytes"]])
+		debug_log("The returned value for thing is this: "+str(thing))
 	'''
 	optional int32 transfer_id = 1;
 	optional string file_name = 2;

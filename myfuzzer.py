@@ -15,6 +15,12 @@ def deinit():
 protopaths = ["/home/cyberhacker/Fuzzingpackets/Kisak-Strike/common/netmessages.proto", "/home/cyberhacker/Fuzzingpackets/Kisak-Strike/common/network_connection.proto", "/home/cyberhacker/Fuzzingpackets/Kisak-Strike/common/engine_gcmessages.proto"]
 
 
+def debug_log(string: str) -> None:
+	fh = open("/home/cyberhacker/mutator_log", "a")
+	fh.write("[+] " + string + "\n")
+	fh.close()
+
+
 
 #message_handlers = []
 #for path in protopaths:
@@ -555,20 +561,28 @@ def stuff_thing(msg, field, list_oof):
 		field_type = thing[1]
 
 		if field_type == "bool":
+			debug_log("we are in the field_type == bool case and field_string == "+str(field_string))
 			msg, thing = bool_thing(msg, field, field_string)
 			if thing:
+				debug_log("we modified the thing in the field_type == bool case!")
 				return msg, True
 		elif field_type == "int":
+			debug_log("we are in the field_type == int case and field_string == "+str(field_string))
 			msg, thing = int_thing(msg, field, field_string)
 			if thing:
+				debug_log("we modified the thing in the field_type == int case!")
 				return msg, True
 		elif field_type == "bytes":
+			debug_log("we are in the field_type == bytes case and field_string == "+str(field_string))
 			msg, thing = bytes_thing(msg, field, field_string)
 			if thing:
+				debug_log("we modified the thing in the field_type == bytes case!")
 				return msg, True
 		elif field_type == "string":
+			debug_log("we are in the field_type == string case and field_string == "+str(field_string))
 			msg, thing = string_thing(msg, field, field_string)
 			if thing:
+				debug_log("we modified the thing in the field_type == string case!")
 				return msg, True
 		else:
 			print("Invalid field type for this mutator: field_type == "+str(field_type))
@@ -738,8 +752,10 @@ message CSVCMsg_UpdateStringTable
 	'''
 
 	if msg_type == "CSVCMsg_PacketEntities":
-		msg, thing = stuff_thing(msg, field, [["max_entries", "int"],["updated_entries", "int"], ["is_delta", "bool"], ["update_baseline", "bool"], ["baseline", "int"],["delta_from", "int"], ["entity_data", "bytes"]])
+		debug_log("We are in the msg_type == CSVCMsg_PacketEntities case !")
 
+		msg, thing = stuff_thing(msg, field, [["max_entries", "int"],["updated_entries", "int"], ["is_delta", "bool"], ["update_baseline", "bool"], ["baseline", "int"],["delta_from", "int"], ["entity_data", "bytes"]])
+		debug_log("The returned value for thing is this: "+str(thing))
 
 
 	'''
@@ -754,8 +770,9 @@ message CSVCMsg_UpdateStringTable
 
 
 	if thing:
+		debug_log("Returning modified message!")
 		return msg, True
-
+	debug_log("Returning original message!")
 	return original_msg, False
 
 
@@ -948,6 +965,7 @@ try:
 	type_bytes = get_length_bytes(message_id) # the message_id ( which is also VarInt32 )
 	#print("type bytes: "+str(type_bytes))
 	if len(bytes(type_bytes)+bytes(len_bytes)+mut_msg_bytes) > max_size:
+		debug_log("We are returning the original message because of the length!")
 		return bytearray(original_message)
 	else:
 		return bytearray(bytes(type_bytes)+bytes(len_bytes)+mut_msg_bytes)  # return the packet
